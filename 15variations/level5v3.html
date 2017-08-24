@@ -5,13 +5,157 @@
     <title></title>
 
     <style media="screen">
+    h1 {
+     font-size: 16px !important;
+
+
+     width: 50%;
+
+     position: relative;
+     background: #76c8c7;
+     color: #fff;
+     text-align: center;
+     padding: 1em 2em;
+     margin: 2em auto 3em;
+    }
+    .ribbon:before, .ribbon:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #76c8c7;
+     z-index: -1;
+    }
+    .ribbon:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .ribbon:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #4aa09c transparent transparent transparent;
+     bottom: -1em;
+    }
+    .ribbon .ribbon-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .ribbon .ribbon-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
+
+    h2 {
+     font-size: 16px !important;
+
+
+     width: 50%;
+
+     position: relative;
+     background: #ba8673;
+     color: #fff;
+     text-align: center;
+     padding: 1em 2em;
+     margin: 2em auto 3em;
+    }
+    .ribbon:before, .ribbon:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #986794;
+     z-index: -1;
+    }
+    .ribbon:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .ribbon:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #804f7c transparent transparent transparent;
+     bottom: -1em;
+    }
+    .ribbon .ribbon-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .ribbon .ribbon-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
+
+    h3 {
+     font-size: 16px !important;
+
+
+     width: 50%;
+
+     position: relative;
+     background: #f48649;
+     color: #fff;
+     text-align: center;
+     padding: 1em 2em;
+     margin: 2em auto 3em;
+    }
+    .ribbon:before, .ribbon:after {
+     content: "";
+     position: absolute;
+     display: block;
+     bottom: -1em;
+     border: 1.5em solid #f48649;
+     z-index: -1;
+    }
+    .ribbon:before {
+     left: -2em;
+     border-right-width: 1.5em;
+     border-left-color: transparent;
+    }
+    .ribbon:after {
+     right: -2em;
+     border-left-width: 1.5em;
+     border-right-color: transparent;
+    }
+    .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+     content: "";
+     position: absolute;
+     display: block;
+     border-style: solid;
+     border-color: #db5919 transparent transparent transparent;
+     bottom: -1em;
+    }
+    .ribbon .ribbon-content:before {
+     left: 0;
+     border-width: 1em 0 0 1em;
+    }
+    .ribbon .ribbon-content:after {
+     right: 0;
+     border-width: 1em 1em 0 0;
+    }
     img {
     height: 180x;
     width: 180px;
     margin-left: 80px;
 
 
-     }
+
+   }
     </style>
   </head>
   <body>
@@ -20,6 +164,23 @@
     <a href="level5v2.html"><img src="assets/images/backward-01.jpg" alt=""></a>
     <a href="index.html"><img src="assets/images/home-01.jpg" alt=""></a>
     <img src="assets/images/forward-01.jpg" alt="">
+
+    <h1 class="ribbon">
+       <strong class="ribbon-content">Begin with ideas</strong>
+
+    </h1>
+
+    <h2 class="ribbon">
+       <strong class="ribbon-content">Embrace chance</strong>
+
+    </h2>
+
+    <h3 class="ribbon">
+       <strong class="ribbon-content">Celebrate coincidence</strong>
+
+    </h3>
+
+
 
   </body>
 </html>
