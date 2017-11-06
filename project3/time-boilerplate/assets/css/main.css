@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: red;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.time {
+  font-family: arial;
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+image_swap {
+margin: auto;
+width: 600px;
+}
