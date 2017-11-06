@@ -1,27 +1,19 @@
 * {
   box-sizing: border-box;
+
 }
 
 
 /* Start here */
 
 body {
-background-color: red;
-}
-* {
-  box-sizing: border-box;
-}
+background-color: #ff009e;
+font-size: 150px;
+padding-right: 200px;
+padding-left: 200px;
+font-family: courier;
+font-style: oblique;
+font-kerning: auto;
+margin-top: inherit;
 
-
-.time {
-  font-family: arial;
-  font-size: 100px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 80px;
-}
-
-image_swap {
-margin: auto;
-width: 600px;
 }
